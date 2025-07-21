@@ -1,0 +1,11 @@
+### base url
+@url=http://localhost:3000
+
+POST {{url}}/api/v1/beep
+
+### random ping
+@probability = 50
+POST {{url}}/api/v1/beep/random?probability={{probability}}
+
+### dice (random with 1/6 probability)
+POST {{url}}/api/v1/beep/dice
